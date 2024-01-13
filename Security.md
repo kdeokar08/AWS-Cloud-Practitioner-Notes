@@ -41,3 +41,10 @@ Access these documents is through this service.
 We have security groups and network access layer which by default protect us from ddos attacks.
 elb is also scalable and wouldn't be prone to slowloris attach
 aws shield.
+
+AWS Key Management Service (AWS KMS)
+    To encrypt data at rest or in transit, keys are offered.
+Amazon Inspector
+    Improves the security and compliance of applications by running automated security assessments.
+Amazon GuardDuty
+    intelligent threat detection for your AWS infrastructure and resources
