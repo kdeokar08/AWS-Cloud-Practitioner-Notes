@@ -1,3 +1,4 @@
+```
 Compute
   EC2 - Amazon Elastic Compute Cloud.
     The service you use to gain access to virtual servers is called EC2.
@@ -32,3 +33,4 @@ Compute
     Accelerated computing - for floating point number calculations, graphics processing, or data pattern matching, as they use hardware accelerators
     Storage optimized - high performance for locally stored data.
     
+```
