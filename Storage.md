@@ -1,0 +1,83 @@
+Instance stores
+> Block-level storage volumes behave like physical hard drives. 
+An instance store is disk storage that is physically attached to the host computer for an EC2 instance,
+and therefore has the same lifespan as the instance. When the instance is terminated, you lose any data in the instance store.
+
+Amazon Elastic Block Store (Amazon EBS) - mission critical, i/o intensive
+> Is a service that provides block-level storage volumes that you can use with.
+To create an EBS volume, you define the configuration (such as volume size and type) and provision it. 
+After you create an EBS volume, it can attach to an Amazon EC2 instance.
+You can take incremental backups of EBS volumes by creating Amazon EBS snapshots.
+
+
+S3
+    data is stored as objects. it can be anything. it's stored in a bucket.
+    versioning of objects is supported. max object size 5tbs.
+    these buckets can be put in different tiers.
+    
+    Some notable tiers.
+    S3 Standard - 11 9's of durability - of chance of remanining intact for 1 year.
+               - data is stored in 3 different facilities.
+    S3 Standard Infrequent Access or  S3 Standard-IA
+               - Data that is accessed less frequently but requires rapid access when needed.
+               - data is stored in 3 different facilities.
+    S3 One Zone Standard Infrequent Access 
+               - same as above but data is stored only in a single zone.
+    S3 Glacier Flexible Retrieval
+               - Retain data for several years for auditing purposes. No need of being retrieved very rapidly. 
+    S3 Glacier Instant Retrieval
+    S3 Glacier Deep Archive
+    S3 Intelligent Tiering
+               - For example, say we need to keep an object in S3 Standard for 90 days, and then we want to move it to S3 Standard-IA for the next 30 days.
+                 Then after 120 days total, we want to move it to S3 Glacier Flexible Retrieval
+    AWS S3 Outposts 
+      store data durably on your outposts.
+
+EFS
+  Scalable, replication enabled file system.
+  Amazon EFS can have multiple instances reading and writing from it at the same time.
+  
+  Amazon EBS volumes attach to EC2 instances and are an Availability Zone-level resource. Hence EBS stores data in single availability zone.
+  In order to attach EC2 to EBS, you need to be in the same AZ. Not scalable. 
+
+Amazon Fsx
+ scalable high-performance file systems in the cloud.
+ Lustre, NetApp ONTAP, OpenZFS, and Windows File Server.
+ 
+Amazon Relational Database Service (RDS)
+  DB Engine's supported:
+    Amazon Aurora
+    PostgreSQL
+    MySQL
+    MariaDB
+    Oracle Database
+    Microsoft SQL Server
+
+    AWS provides AWS Aurora
+
+Amazon Dynamo DB - nosql db
+    Serverless database.
+    Data is organized into items, and items have attributes.
+    Auto-Scalable, available across multiple az's/
+
+Redshift - data warehousing
+    Analysis on exabytes of data.
+
+
+Amazon Database Migration Service
+  Why: Migration of your database from on-prem to cloud.
+  The best part is that the source database remains fully operational during the migration
+
+  Homogeneous data migrations - are easy.
+  Heterogeneous - schema conversion tool is used. then DMS is used.
+  Data consolidation - multiple databases to consolidate into one central database.
+
+Amazon document db - mongodb. AWS Service
+Neptune - graph db - social webs
+Amazon managed blockchain - decentralization component. so not good for financial institutions where data is spread across.
+Quantum Ledger DB - immutable ledger db 
+
+Adding caching layers on top of your databases = improve read times from mil sec to microsec.
+Amazon ElastiCache can provide those caching layers without your team needing to worry about the heavy lifting of launching, uplift, and maintenance. 
+And it comes in both Memcached and Redis flavors. 
+  
