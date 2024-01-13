@@ -19,3 +19,22 @@
   The green check indicates the number of items for which it detected no problems.
   The orange triangle represents the number of recommended investigations.
   The red circle represents the number of recommended actions.
+
+### ELB (ELastic Load Balancing)
+   ```
+   Health checks are performed by ELB.
+
+   Application load balancer:
+      User authorization
+      Rich metrics and logging
+      Redirects
+      Fixed response
+   Network load balancer:
+      TCP and User Datagram Protocol (UDP) connection based
+      Source IP preservation
+      Low latency
+   Gateway load balancer:
+      Health checks
+      Gateway Load Balancer Endpoints
+      Higher availability for third-party virtual appliances
+```
