@@ -35,10 +35,16 @@ Unified Workforce identities:
 ### AWS Secrets Manager: 
 - Centralized and secure management of secrets.
 - credentials api keys.
+- to rotate credentials periodically without restarting the container.
   
+### AWS System Manager Parameter Store
+- To design a centralized storage system to manage the configuration data and passwords for its critical business applications.
+
 ### Macie - data security with ml
+- discovers sensitive data using ml and pattern matching, provides visibility into data security risks.
 - data security service - with ml and pattern matching. 
-- data risks across s3 environments.
+- data risks across s3 environments, generates findings as unencrypted buckets, accessible buckets.
+- provides sensitivity score for each bucket.
 - migration security.
 
 ### Resource access manager -

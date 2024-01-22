@@ -49,6 +49,8 @@ Scalable, Fast, Cost-Effective Big Data Analytics.
     Serverless, scalable analytics on-demand. 
     athena takes input from datalakes, warehouses and generates BI & Analytics applications.
 
-### Amazon Quick sight. 
-to view the analytics from Athena.
-machine learinng to enhance data insights.
+### Amazon QuickSight. AWS Quick Sight
+- serverless, cloud native, BI service.
+- to view the analytics from Athena.
+- machine learinng to enhance data insights.
+- Build interactive business intelligence dashboards that include machine learning insights

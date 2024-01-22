@@ -44,3 +44,7 @@
 - ML experience.
 - build, train, deploy ml models.
 - no-code interface for business analysts.
+
+### Personalize
+- fully managed ml service that uses your data to generate recommendations for your users.
+- personalize video recommendations, product recommendations.

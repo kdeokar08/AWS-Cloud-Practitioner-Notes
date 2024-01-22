@@ -3,7 +3,7 @@
 - So a snapshot is taken of the on-prem application.
 - The migration plan will be in detail - of the tcp connections, server config, performance metrics.
 - Integrates with Migration Hub and DMS.
-
+- ex: gathering information about its on-premises infrastructure and requires information such as the hostname, IP address, and MAC address.
 #### AWS Transfer Family
 - Transfer data with AWS.
 - store data in s3 or efs. automate with low code service using sftp, ftps or ftp protocols.

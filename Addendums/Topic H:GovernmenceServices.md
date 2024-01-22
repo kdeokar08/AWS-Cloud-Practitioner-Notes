@@ -21,6 +21,7 @@
 - deploy and manage resources across all AWS accounts and regions.
 
 ### Service Catalog - Curated Infra Management.
+- AWS Service Catalog lets you centrally manage your cloud resources to achieve governance at scale of your infrastructure as code (IaC) templates, written in CloudFormation or Terraform configurations. 
 - create, share and manage a catalog of it services that are aws approved.
 - seamlessly connect with platforms like servicenow and jira. 
   
@@ -33,3 +34,4 @@
 - manage resources across aws, multicloud, on prem and edge environments.
 - ensure compliance
 - rapid issue detection - reducing downtime and disruptions.
+- secure end-to-end management solution for resources on AWS and in multicloud and hybrid environments.

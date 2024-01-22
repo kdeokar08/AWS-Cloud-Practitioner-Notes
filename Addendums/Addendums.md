@@ -27,6 +27,7 @@ Topic B: Addendum - Networking Services.
             performance boost for apps
             two ips are given as entry point.
             connect up to 10 regions within aws network.
+            AWS service helps deliver highly available applications with fast failover for multi-Region and Multi-AZ architectures?
 
     API Gateway: API Management 
         api creation publishing maintainence and security.
